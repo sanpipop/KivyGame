@@ -23,30 +23,30 @@
  Kivy: Kivy Official Site > https://kivy.org/doc/stable/
 
 ##### 610110333 นางสาวสุขิตา เหลียวพัฒนพงศ์ <br> 6610110661 นายสรรพิภพ บัตริยะ
-##### การทำงานแต่ละคลาส
-class HomePage(Screen): 
+# การทำงานแต่ละคลาส
+## class HomePage(Screen): 
 แสดงหน้าHome และ ปุ่มกดเข้าเกมส์ 
-class GameScreen(Screen): 
+## class GameScreen(Screen): 
     หน้าสำหรับแสดงตัวเกมส์จาก GameWidget
-class WinScreen(Screen): 
+## class WinScreen(Screen): 
     หน้าที่แสดงผลตอนชนะ
-class LoseScreen(Screen): 
+## class LoseScreen(Screen): 
     หน้าที่แสดงผลตอนชนะ
-class AttackPower(Widget): 
+## class AttackPower(Widget): 
     คลาสเอาไว้ให้ player กับ Enemy ปล่อยพลังออกมา และเช็คว่าจะตรวจจับการชนอย่างไร ท่าไหนชนะท่าไหน
-class Health(Widget):
+## class Health(Widget):
     คลาสเอาไว้แสดงก้อนหัวใจแต่ละก้อน
-class Player(Widget):
+## class Player(Widget):
     คลาสสำหรับให้Playerสั่งคำสั่งปล่อยท่า และเก็บเลือดPlayer เก็บพลังงานPlayer เก็บท่าสุดท้ายที่Playerปล่อย เก็บระยะห่างของหัวใจแต่ละก้อน และทำการสั่งแสดงผลหัวใจขึ้นมาบนหัวเพลเยอร์
-class Enemy(Widget):
+## class Enemy(Widget):
     คลาสสำหรับให้Enemyสั่งคำสั่งปล่อยท่า และเก็บเลือดEnemy เก็บพลังงานEnemy เก็บท่าสุดท้ายที่Enemyปล่อย เก็บระยะห่างของหัวใจแต่ละก้อน และ ทำการสั่งแสดงผลหัวใจขึ้นมาบนหัวEnemy
-class ExplosionPower(Widget):
+## class ExplosionPower(Widget):
     คลาสแสดงรูปและเสียงตอนพลังชนกัน
-class ExplosionPlayer(Widget):
+## class ExplosionPlayer(Widget):
     คลาสแสดงรูปและเสียงตอนพลังงานชนPlayer หรือ Enemy
-class ExplosionPlayerNotHurt(Widget):
+## class ExplosionPlayerNotHurt(Widget):
     คลาสแสดงรูปและเสียงตอนพลังงานชนPlayer หรือ Enemy แล้วป้องกันไว้ได้
-class GameWidget(Widget):
+## class GameWidget(Widget):
     แสดงผลองค์ประกอบต่างๆในเกมส์
-class PpcApp(App):
+## class PpcApp(App):
     หน้าแอพ
