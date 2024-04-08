@@ -1,4 +1,4 @@
-# Pingpong Chart 
+# Pingpong Chart - สร้างเกมส์ด้วย Kivy
 #### This is a game created using Kivy.
 ## Features
 ### Pingpong Chart
